@@ -23,18 +23,26 @@
             
             <h2>Login</h2>
             <p>Seja benvindo(a) novamente, faça o login para acessar sua conta e poder fazer suas configurações necessárias.</p>
-            <p>
-                <label for="iemail"><span class="material-symbols-outlined">account_circle</span></label>
-                <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail">
-            </p>
-            <p>
-                <label for="isenha"><span class="material-symbols-outlined">password</span></label>
-                <input type="password" name="senhas" id="isenha" required placeholder="Digite sua senha" minlength="8" maxlength="15">
-            </p>
-            <p>
-                <input class="botao" type="submit" value="Enviar">
-                <input class="botao" type="reset" value="Limpar">
-            </p>
+          
+                <div class="input">
+                    <label for="iemail"><span class="material-symbols-outlined">account_circle</span></label>
+                    <input type="email" name="email" id="iemail" required placeholder="Digite seu e-mail" size="35">
+                </div>
+           
+            
+                <div class="input">
+                    <label for="isenha"><span class="material-symbols-outlined">password</span></label>
+                    <input type="password" name="senhas" id="isenha" required placeholder="Digite sua senha" minlength="8" maxlength="15" size="15">
+                </div>
+         
+         
+                <div id="caixa-botao">
+                    
+                        <input class="botao" type="submit" value="Enviar">
+                        <input class="botao" type="reset" value="Limpar">
+                </div>
+                
+        
             
 
         </form>
