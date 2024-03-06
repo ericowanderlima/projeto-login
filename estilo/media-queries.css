@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(to top, #bc7aac, #6ec6f1);
+    }
+
+    main{
+        width: 70%;
+        
+        & section#foto{
+            width: 30%;
+            height: 250px;
+            float: left;
+            
+            & img{
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 10px 0 0 10px;
+            }
+        }
+
+        & section#formulario{
+            width: 70%;
+            float: right;
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #bc7aac, #6ec6f1);
+    }   
+    
+    main{
+        width: 700px;
+        
+        & section#foto{
+            width: 50%;
+            height: 250px;
+            float: left;
+            
+            & img{
+                height: 100%;
+                border: 1px solid black;
+                border-radius: 10px 0 0 10px;
+            }
+        }
+
+        & section#formulario{
+            width: 50%;
+            float: right;
+        }
+    }
+
+}
