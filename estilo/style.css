@@ -14,11 +14,11 @@ body{
 }
 
 main{
-    max-width: 400px;
+    width: 300px;
     left: 50%;
     top: 50%;
     border: 2px solid rgb(0, 0, 0);
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.575);
     transform: translate(-50%, -50%);
     position: absolute;
     background-color: rgb(197, 197, 197);
@@ -29,11 +29,13 @@ section#foto{
     & img{
         width:100%;
         border-radius: 10px 10px 0 0;
-        
+        display: block;
     }
 }
 
 section#formulario{
+    display: block;
+    
     & h2{
         text-align: center;
         margin-bottom: 10px;
