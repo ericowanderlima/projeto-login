@@ -11,7 +11,7 @@
   <main>
     <section id="login">
       <div id="imagem">
-        foto
+        <p></p>
       </div>
       <div id="formulario">
         <h1>Login</h1>
@@ -20,8 +20,15 @@
           Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
         </p>
 
-        <form action="login.py" method="post">
-          <label for=""></label>
+        <form action="login.py" method="post" autocomplete="on">
+          <label for="iemail">E-mail: </label>
+          <input class="email" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+
+          <label for="isenha">Senha: </label>
+          <input class="senha" type="password" name="senha" id="isenha">
+
+          <input type="button" value="Enviar">
+          <input type="reset" value="Limpar">
         </form>
       </div>
     </section>
