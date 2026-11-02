@@ -44,7 +44,6 @@ main{
     div#formulario{
       background-color: #49a09d82;
       max-width: 320px;
-      height: 320px;
       margin: auto;
       border-radius: 0px 0px 10px 10px;
       position: relative;
@@ -57,10 +56,6 @@ main{
       p{
         text-align: justify;
         margin-bottom: 20px;
-      }
-
-      div#dados{
-        
       }
 
       input.email, .senha{
@@ -78,7 +73,7 @@ main{
         display: inline-block;
         padding: 5px;
         width: 120px;
-        margin-top: 20px;
+        margin-top: 5px;
       }
 
       div#botaoesqueciasenha{
