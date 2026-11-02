@@ -9,40 +9,31 @@
   <title>Projeto Login</title>
 </head>
 <body>
-  <main>
-    <section id="login">
-      <div id="imagem">
-        <p></p>
-      </div>
-      <div id="formulario">
-        <h1>Login</h1>
+  
+  <main id="mae">
 
-        <p>
-          Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
-        </p>
+    <p class="img">
+      <img src="" alt="">
+    </p>
 
-        <form action="login.py" method="post" autocomplete="on">
+    <form action="login.py" method="post" autocomplete="on">
 
-          <div id="dados">
-            <label for="iemail">E-mail</label>
-            <input class="email" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
-            <br>
-            <label for="isenha">Senha</label>
-            <input class="senha" type="password" name="senha" id="isenha" placeholder="Digite a senha aqui">
-            <br>
-          </div>
+      <p>
+        Seja Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.
+      </p>
 
-          <div id="botoes">
-            <input class="enviar" type="button" value="Enviar">
-            <input class="limpar" type="reset" value="Limpar">
-          </div>
-          <br>
-          <div id="botaoesqueciasenha">
-            <input class="esqueciasenha" type="button" value="Esqueci minha senha">
-          </div>
-        </form>
-      </div>
-    </section>
+      <label for="iemail">Email: </label>
+      <input class="email" type="email" name="email" id="iemail">
+      <br>
+      <label for="isenha">Senha: </label>
+      <input class="senha" type="password" name="senha" id="-isenha">
+      <br>
+      <input class="botao" type="submit" value="Enviar">
+      <br>
+      <input class="botao" type="submit" value="Esqueci a senha">
+
+    </form>
   </main>
+ 
 </body>
 </html>
