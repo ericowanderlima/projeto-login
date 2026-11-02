@@ -21,14 +21,22 @@
         </p>
 
         <form action="login.py" method="post" autocomplete="on">
-          <label for="iemail">E-mail: </label>
-          <input class="email" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
 
-          <label for="isenha">Senha: </label>
-          <input class="senha" type="password" name="senha" id="isenha">
+          <div id="dados">
+            <label for="iemail">E-mail</label>
+            <input class="email" type="email" name="email" id="iemail" placeholder="Digite seu e-mail" required>
+            <br>
+            <label for="isenha">Senha</label>
+            <input class="senha" type="password" name="senha" id="isenha" placeholder="Digite a senha aqui">
+            <br>
+          </div>
 
-          <input type="button" value="Enviar">
-          <input type="reset" value="Limpar">
+          <div id="botoes">
+            <input class="enviar" type="button" value="Enviar">
+            <input class="limpar" type="reset" value="Limpar">
+          </div>
+          <br>
+          <input class="esqueciasenha" type="button" value="Esqueci minha senha">
         </form>
       </div>
     </section>
